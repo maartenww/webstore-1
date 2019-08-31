@@ -1,0 +1,13 @@
+.header {
+    color:red;
+    border: 30px solid gray;
+    background-color: black;
+}
+
+.homebutton-text {
+    color: blue;
+}
+
+body {
+    background-color: lightblue;
+  }

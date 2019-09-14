@@ -1,14 +1,50 @@
-.header {
-    border: 30px solid gray;
-    background-color: black;
-}
-
 body {
-    background-color: lightblue;
+    background-color: #EFE2BA;
+    padding: 0px 0px 0px 0px;
+    margin: 0 auto;
+    width: 100%;
   }
 
+.navbar { 
+    background-color: #F13C20;
+    width: 100%;
+    height: 65px;
+    box-shadow: 1px 0px 5px black;
+    display: flex;
+}
 
-.header-title {
+
+.navbar-title {
     font-family: 'Dancing Script', cursive;
     font-size: '16px'
+}
+
+img {
+    display: block;
+}
+
+.signature-img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar-button:hover {
+    background-color: #EFE2BA;
+    color: #7a735c;
+}
+
+.navbar-button {
+    background-color: #4056A1;
+    display:block;
+    transition: .5s;
+    border: none;
+    color: #EFE2BA ;
+    text-align: center;
+    font-size: 1em;
+    font-family: sans-serif;
+    padding: 15px;
 }
